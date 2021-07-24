@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-family:"Lexend Deca",sans-serif ;
+}
+
+h2{
+    color: hsl(0, 0%, 95%);
+    font-size: 30px;
+    font-family: "Big Shoulders Display", sans-serif;
+    text-transform: uppercase;
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75)
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    max-height: 100vh;
+    align-self: center;
+    margin: auto;
+
+}
+
+
+.sedan{
+    background-color:hsl(31, 77%, 52%);
+    padding: 10px 10px;
+    border-radius: 10px 10px 0 0;
+}
+.suv{
+    background-color:hsl(184, 100%, 22%);
+    padding: 10px 10px;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 10px 10px;
+    border-radius: 0 0 10px 10px;
+}
+.button {
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 20px;
+    
+}
+.btn-1{
+color: hsl(31, 77%, 52%);;
+}
+
+.btn-2{
+    color:hsl(184, 100%, 22%);
+}
+
+.btn-3{
+    color:hsl(179, 100%, 13%);
+}
